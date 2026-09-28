@@ -10,7 +10,7 @@ try:
         password=getpass("Enter password: "),
     )
 
-    create_db_query = "CREATE DATABASE IF NOT EXISTS movie_db"
+    create_db_query = "CREATE DATABASE IF NOT EXISTS movies_1348_db"
 
     cursor = connection.cursor()
     cursor.execute(create_db_query)
