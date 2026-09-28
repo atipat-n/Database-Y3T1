@@ -14,7 +14,7 @@ try:
 
     cursor = connection.cursor()
     cursor.execute(create_db_query)
-    print("Database created successfully!")
+    print("Database movies_1348_db created successfully!")
 
     cursor.close()
 
