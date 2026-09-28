@@ -8,7 +8,6 @@ try:
         host="localhost",
         user=input("Enter username: "),
         password=getpass("Enter password: "),
-        database=input("Enter database name: ")
     )
 
     create_db_query = "CREATE DATABASE IF NOT EXISTS movie_db"
